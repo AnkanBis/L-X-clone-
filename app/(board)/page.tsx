@@ -3,7 +3,9 @@ import Share from "@/components/Share";
 import Link from "next/link";
 
 
-export default function Home() {
+export default async function Home() {
+
+
     return (
         <div>
             <div className="flex justify-between text-white font-bold border-b-[1px] border-borderGray ">
